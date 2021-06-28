@@ -1,0 +1,59 @@
+body{
+    background-color: #F1F1F1;
+    color: #7B7B7B;
+
+}
+h1{
+    color: #6D17B0;
+}
+input, select{
+    background-color: #F1F1F1;
+    border-radius: 10%;
+    border: none;
+    border-bottom: 0.5px solid #7B7B7B;
+}
+.texto-centro{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #7B7B7B;
+}
+
+.container{
+    max-width: 700px;
+}
+.caixa{
+    background-color: #ffff;
+    border-radius: 2em;
+    padding: 1% ;   
+}
+.texto-roxo{
+    color: #6D17B0;
+}
+.texto-left{
+    text-align: left;
+    margin-left: 10px;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.container-botao-index{
+    background-color: #ffff;
+    max-width: 120px;
+    border-radius: 10px;    
+}
+.container-botao-index:hover{
+    color: white;
+    border: 1px solid #6D17B0;
+}
+
+.logotipo-voltar{
+    min-width: 70px;
+    width: 150px;
+    max-width: 200px;
+    
+}

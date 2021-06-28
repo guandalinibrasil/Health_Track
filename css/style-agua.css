@@ -1,0 +1,30 @@
+.caixa-agua{
+    text-align: center;
+}
+.copo-agua{
+    width: 60px;
+}
+.container-escrita-agua{
+    padding-top: 2em;
+    padding-bottom: 1em;
+    max-width: 400px;
+}
+.container-copinho{
+    margin-bottom: 3em;
+}
+.copo-agua-demonstrativo{
+    width: 40px;
+    margin-left: 80px;
+}
+.total-ingerido{
+    margin-right: 80px;
+}
+.caixa-historico h1{
+    font-size: 1.5em;
+}
+.caixa{
+    margin-top: 1em;
+}
+.caixa p{
+    margin: 1em;
+}

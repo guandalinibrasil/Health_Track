@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" >
+    <title>Health Track</title> 
+    <link rel="shortcut icon" type="image/x-icon" href="./imagens/logotipo.ico" />
+    <link rel="icon" type="image/x-icon" href="./imagens/logotipo.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style-cadastro.css">
+    <meta name="description" content="Health Track melhore sua saúde">
+    <meta name="keywords" content="HTML,CSS,XHTML,JavaScript">
+    <meta name="author" content="Raquel Santos Guandalini">
+  </head>
+<body>
+  <div class="topo text-center">
+    
+  </div>
+
+  <form class="container" id="formulario" method="POST" action="processaForm.php" accept-charset="utf-8" autocomplete="on">
+    <fieldset>
+      <legend class="text-center">
+          <h1>Vamos começar?</h1>
+      </legend>
+        <br>
+        <br>
+        <br>
+      <div class="text-center">
+        <label for="nome">Nome completo</label><br>
+        <img class="icones-cadastro" src="./imagens/icone-pessoa-vazado-roxo.svg"><input type="text" id="nome" maxlength="70" name="nome" required>   
+      </div>
+      <br>
+      <div class="text-center">
+        <label for="idade">Nascimento</label><br>
+        <img class="icones-cadastro" src="./imagens/icone-calendario-vazado-roxo.svg"><input  type="number" id="idade" name="senha" >
+        <p><span class="texto-roxo">X </span>anos</p>
+      </div>
+      <br>
+      <div class="text-center texto-cadastro">
+          <p>Os indicadores de peso e altura são 
+            opcionais e você pode alterar a
+            qualquer momento</p>
+      </div>
+      <div class="text-center">
+        <label for="altura">Altura</label>
+        <img  class="icones-cadastro" src="./imagens/icone-altura-vazado-roxo.svg"><input type="altura" id="altura" name="altura">
+        <select id="altura" name="altura">
+            <option value="cm"selected>cm</option>
+            <option value="m">m</option>
+        </select>
+      </div>
+      <br>
+      
+      <div class="text-center">
+        <label for="peso">Peso</label><img  class="icones-cadastro" src="./imagens/icone-balanca-vazado-roxo.svg"><input type="peso" id="peso" name="peso">
+        <select id="peso" name="peso">
+            <option value="kg"selected>kg</option>
+        </select>
+      </div>
+
+    </fieldset>
+    <br>
+
+    <div class="text-center botao-salvar">
+      <input type="submit" value="Começar!">
+    </div>
+  </form>
+  <br>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

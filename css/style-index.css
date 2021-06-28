@@ -1,0 +1,44 @@
+
+.container{
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+}
+.icone-alarme{
+    width: 40px;
+    background-color: #ffff;
+    border-radius: 50px;
+}
+.logotipo-index{
+    width: 70px;
+}
+.caixa-agua{
+    text-align: center;
+}
+.copo-agua{
+    width: 60px;
+}
+.nome-remedio{
+    padding-right: 1em;
+}
+.remedio{
+    padding-left: 2em;
+}
+.borda-bottom{
+    border-bottom: 1px solid #6D17B0;
+}
+.alarme{
+    width: 50px;
+    float: right;
+    margin-right: 2em;
+}
+
+.caixa-footer img{
+    width: 50px;
+    float: right;
+}
+
+.caixa-footer{
+    bottom: 0;
+    background-color: #ffff;
+    height: 50px;
+}

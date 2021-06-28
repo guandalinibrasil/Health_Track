@@ -1,0 +1,24 @@
+.logotipo{
+    width: 100px;
+}
+.container{
+    color: #545454;
+    
+}
+.botao-comecar{
+    background-color: #6D17B0;
+    color: #FEEE36;
+    border-radius: 7px;
+}
+.form-group img{
+    width: 50px;
+}
+.form-group{
+    align-items: center;
+}
+.botao-recuperar{
+    color: #6D17B0;
+}
+.botao-recuperar:hover{
+    color: #545454;
+}
